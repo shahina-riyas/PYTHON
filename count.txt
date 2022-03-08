@@ -1,0 +1,11 @@
+dict={}
+str1=input("ntr srng")
+for n in str1:
+    if n in dict:
+        dict[n]+=1
+
+    else:
+        dict[n]=1
+print("chtctr freqnct")
+for k,v in dict.items():
+    print(k,v)

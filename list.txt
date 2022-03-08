@@ -1,0 +1,5 @@
+num1=input("enter the list of integers (space separated):")
+num=list(map(int,num1.split()))
+num=[x fo x in num if num%2!=0]
+print("list after reoving the even numbr")
+print(num)

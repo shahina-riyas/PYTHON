@@ -1,0 +1,9 @@
+list=input("enter a list with some string(space seperated):")
+words_list=list.split()
+word_len=[]
+for n in words_list:
+    word_len.append((len(n),n))
+    word_len.sort()
+print(word_len)
+print("longest word :",word_len[-1][1],"andlength=",word_len[-1][0])
+    
